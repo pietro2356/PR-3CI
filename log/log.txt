@@ -1,3 +1,9 @@
+commit 5d94cfe56f6fc9a616046be525f440c916a6567d
+Author: Pietro Rocchio <pietro.rocchio@marconirovereto.it>
+Date:   Wed Dec 6 12:29:26 2017 +0100
+
+    Add log file
+
 commit 6f7ecadb0b0be9c9b6f75a14b90f4b0dd0c5f4a7
 Author: Pietro Rocchio <pietro.rocchio@marconirovereto.it>
 Date:   Wed Dec 6 09:36:11 2017 +0100
