@@ -1,0 +1,102 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 10px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+  color: #444;
+  background-color: #d8d8d8;
+}
+.all
+{
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  grid-gap: 10px;
+}
+
+.header
+{
+  grid-column: 1 / -1;
+  /* needed for the floated layout */
+  clear: both;
+  text-align: center;
+  color: red;
+}
+.sidebar
+{
+  float: right;
+  width: auto;
+  border: 5px inset rgb(78, 89, 99);
+  padding: 15px;
+  text-align: center;
+  font-family: 'Open Sans', 'sans-serif';
+  background: #282E33;
+  color: #ff5e00;
+}
+.list, .ul
+{
+  color: #FF006E;
+  text-align: left;
+}
+a
+{
+  color: rgb(0, 255, 234);
+}
+a:hover
+{
+  color: #FF006E;
+  text-decoration-line: underline;
+}
+.content
+{
+  border: 5px solid;
+  float: right;
+  width: auto;
+}
+.nav-dx
+{
+  float: left;
+  width: auto;
+  border: 5px inset rgb(78, 89, 99);
+  padding: 15px;
+  text-align: center;
+  font-family: 'Open Sans', 'sans-serif';
+  background: #282E33;
+  color: #ff5e00;
+
+}
+.h02
+{
+  color: #88e7e9;
+}
+.img
+{
+  text-align: center;
+  align-content: center;
+  align-items: center;  
+  align-self: center;
+}
+.art
+{
+  float: right;
+  width: auto;
+  border: 5px dotted;
+  grid-column: 1 / -1;
+}
+.footer
+{
+  border: 5px double rgb(78, 89, 99);
+  padding: 15px;
+  text-align: center;
+  font-family: "Lucida Console", 'Monaco', 'monospace';
+  background: #282E33;
+  grid-column: 1 / -1;
+  /* needed for the floated layout */
+  clear: both;
+  color: rgb(0, 255, 234);
+}
