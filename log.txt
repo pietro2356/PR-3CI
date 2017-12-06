@@ -1,0 +1,11 @@
+commit 6f7ecadb0b0be9c9b6f75a14b90f4b0dd0c5f4a7
+Author: Pietro Rocchio <pietro.rocchio@marconirovereto.it>
+Date:   Wed Dec 6 09:36:11 2017 +0100
+
+    Stesura codice iniziale
+
+commit 344bd47e0c8e361221cf72dc670ba6b8d566b3ed
+Author: Pietro Rocchio <pietro.rocchio@marconirovereto.it>
+Date:   Wed Dec 6 09:28:46 2017 +0100
+
+    Inizializzazione sito
