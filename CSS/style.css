@@ -1,0 +1,38 @@
+html, body, *
+{
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif';
+    margin: 0px;
+    text-align: center;
+}
+/*#header
+{
+    /*color: #FF0000;
+    text-align: center;
+    border:none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #EFEFEF;
+    text-align: left;
+}*/
+.article
+{
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+    height: 100px;
+}
+
+.footer
+{
+    /*border: dashed;
+    position: relative;
+    width: 100%;
+    top: 0%;*/
+    text-align: left;
+    background-color: #808080;
+}
