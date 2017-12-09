@@ -1,5 +1,10 @@
-﻿body{
-  background: #eee;
+﻿@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+body {
+    background: #808080;
+    
 }
 .header{
   background: #333;
@@ -14,18 +19,21 @@
   float: right;
   margin: 0;
   padding: 0;
+  margin-top: 25px;
+  
 }
 .header__menu__item{
   display: inline-block;
 }
-.header__menu__item a{
+
+/*.header__menu__item a{
   color: #fff;
   display: block;
   padding: 20px;
 }
 .header__menu__item a:hover{
   background: #000;
-}
+}*/
 .header__icon-bar{
   display: block;
   float: right;
@@ -39,31 +47,69 @@
   background: #fff;
   margin-bottom: 5px;
 }
+.animated-button.thar-three {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
 
+.animated-button.thar-three:hover {
+    color: #000 !important;
+    background-color: transparent;
+    text-shadow: none;
+	
+}
 
+.animated-button.thar-three:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+.animated-button.thar-three:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: 2;
+    content: '';
+    color: #000 !important;
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
 
 
 
 /*-----------------------------------
 Tablet
 -----------------------------------*/
-@media (max-width: 998px){
-
-}
-
-/*-----------------------------------
+        @media (max-width: 998px) {
+        }
+        /*-----------------------------------
 Smartphone
 -----------------------------------*/
-@media (max-width: 767px){
-  .header__icon-bar{display: block;}
-  .header__menu{width: 100%;}
-  .header__menu__item{display: block; height:0px; overflow: hidden;}
+@media (max-width: 767px) {
+    .header__icon-bar {
+        display: block;
+    }
+
+    .header__menu {
+         width: 100%;
+    }
+
+    .header__menu__item {
+         display: block;
+         height: 0px;
+         overflow: hidden;
+  }
 }
-
-
-
-
-
 
 .clearfix:after {
   visibility: hidden;
