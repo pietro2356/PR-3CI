@@ -67,3 +67,15 @@
     background-color: #00ff8a;
     box-shadow: inset 0 0 0.8em #00ff8a, 0 0 1.2em rgba(0, 255, 138, 0.50);
 }
+
+    .fuller-button.purple {
+        color: #ff006e;
+        box-shadow: inset 0 0 0.8em rgba(255, 0, 110, 0.5), 0 0 1.2em rgba(255, 0, 110, 0.5);
+        border: #ff006e solid 2px;
+    }
+.fuller-button.purple:hover {
+    color: #ff006e;
+    text-decoration: none;
+    background-color: #ff006e;
+    box-shadow: inset 0 0 0.8em #00ff8a, 0 0 1.2em rgba(0, 255, 138, 0.50);
+}
