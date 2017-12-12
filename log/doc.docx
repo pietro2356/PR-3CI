@@ -1,9 +1,9 @@
 Sintassi:
-### Commento 
+### Commento
 
 #>
-    commento su 
-    più 
+    commento su
+    più
     righe.
 <#
 
@@ -19,3 +19,4 @@ GG/MM/AAAA    Ora    Utente 	Sintesi-Modifica
 09/12/2017    20:00  root       Aggiunto collegamnto per pagina in sviluppo.
 10/12/2017    22:24  root       Fixato menu a discesa per dispositivi mobili.[Aggiungere animazione].
 11/12/2017    00:13  root       Aggiunta animazione al menu per dispositivi mobili.
+13/12/2017    00:07  root       Inizio creazione cover del sito [ordianto il codice CSS].
