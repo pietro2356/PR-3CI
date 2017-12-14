@@ -1,14 +1,15 @@
 ﻿@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-/*
-body {background: #808080;}
-*/
+
+body {background: #BEBEBE;}
+
 /*CLASSE ANIMATE*/
 .animate{
     -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
 }
+
 /*MODULO HEADER*/
 .header{background: #333;}
 .header__logo{color: #fff; float: left; display: block; padding: 20px;}
@@ -19,13 +20,25 @@ body {background: #808080;}
 
 /*MODULO COVER*/
 .cover {
-    height: 500px;
+    height: 350px;
     border: 1px solid red;
-    background-image: url("https://source.unsplash.com/OqtafYT5kTw/1600x900");
+    background-image: url("../IMG/Cover-Background.jpg");
     background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    /*-o-background-size: cover;
+    -moz-background-size: cover;*/
     background-position: center;
+}
+.cover__caption{
+
+}
+.cover__copy{
+    text-align: center;
+    color: #FF0058;
+}
+
+/*MODULO CAPTION*/
+.caption{
+    border: 1px solid #FF0000;
 }
 
 
@@ -37,7 +50,7 @@ body {background: #808080;}
     position: relative;
     border: 2px solid #F7CA18;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
+
 }
 .animated-button.thar-three:hover {
     color: #000 !important;
@@ -61,7 +74,7 @@ body {background: #808080;}
     color: #000 !important;
     background: #F7CA18;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
+
 }
 
 
