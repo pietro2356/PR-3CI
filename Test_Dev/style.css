@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
-body {background: #BEBEBE;}
+body {background-image: url("../Pattern/Pattern3.jpg");; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; }
 
 /*CLASSE ANIMATE*/
 .animate{
@@ -21,7 +21,7 @@ body {background: #BEBEBE;}
 /*MODULO COVER*/
 .cover {
     height: 350px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-image: url("../IMG/Cover-Background.jpg");
     background-size: cover;
     /*-o-background-size: cover;
@@ -32,14 +32,24 @@ body {background: #BEBEBE;}
 
 }
 .cover__copy{
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
     text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    vertical-align: text-top;
     color: #FF0058;
+    font-size: 200%;
 }
 
-/*MODULO CAPTION*/
-.caption{
-    border: 1px solid #FF0000;
-}
+/*MODULO materia*/
+.materia1{}
+.materia1__name{color: #E01F25; font-weight: bold; text-align: center;}
+.materia1__img{float: left; margin-right: 10px; padding-left: 20%;}
+
+
+.materia2{}
+.materia2__name{color: #E01F25; font-weight: bold; text-align: center;}
+.materia2__img{float: left; margin-right: 10px; padding-left: 20%;}
 
 
 /*BOTTONI ANMATI*/
