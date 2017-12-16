@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
-body {background-image: url("../Pattern/Pattern3.jpg");; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; }
+body { font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; }
 
 /*CLASSE ANIMATE*/
 .animate{
@@ -42,14 +42,21 @@ body {background-image: url("../Pattern/Pattern3.jpg");; font-family: Lucida Con
 }
 
 /*MODULO materia*/
-.materia1{}
+.materia1{background-image: url("../Pattern/Pattern3.jpg");}
 .materia1__name{color: #E01F25; font-weight: bold; text-align: center;}
-.materia1__img{float: left; margin-right: 10px; padding-left: 20%;}
-
-
-.materia2{}
+.materia1__img{float: left; margin-right: 10px; padding-left: 10%;}
+/*---REPLICARE I MODULI PER OGNI MATERIA---*/
+.materia2{background-image: url("../Pattern/Pattern2.jpg");}
 .materia2__name{color: #E01F25; font-weight: bold; text-align: center;}
-.materia2__img{float: left; margin-right: 10px; padding-left: 20%;}
+.materia2__img{float: left; margin-right: 10px; padding-left: 15%;}
+/*MODULO materia 3*/
+.materia3{background-image: url("../Pattern/Pattern1.jpg");}
+.materia3__name{color: #E01F25; font-weight: bold; text-align: center;}
+.materia3__img{float: left; margin-right: 10px; padding-left: 10%;}
+
+/*FOOTER*/
+.footer{background: #333; padding: 30px; color: #fff; margin-top: 40px}
+
 
 
 /*BOTTONI ANMATI*/
@@ -105,7 +112,6 @@ Smartphone
 .header__menu__item {display: block;}
 .is-open{height: 300px; overflow: auto;}
 .fuller-button{width: 96%;}
-
 }
 
 .clearfix:after {
