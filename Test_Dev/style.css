@@ -2,13 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
-body { font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; }
+body {background-color: #eee; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; }
 
-/*CLASSE ANIMATE*/
+/*IMPOSTAZIONI GENERALI*/
 .animate{
     -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
 }
+p{line-height: 22px;}
 
 /*MODULO HEADER*/
 .header{background: #333;}
@@ -20,7 +21,7 @@ body { font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera 
 
 /*MODULO COVER*/
 .cover {
-    height: 350px;
+    height: 70%;
     /*border: 1px solid red;*/
     background-image: url("../IMG/Cover-Background.jpg");
     background-size: cover;
@@ -46,16 +47,27 @@ body { font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera 
 .materia1__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia1__img{float: left; margin-right: 10px; padding-left: 10%;}
 /*---REPLICARE I MODULI PER OGNI MATERIA---*/
-.materia2{background-image: url("../Pattern/Pattern2.jpg");}
+.materia2{background-image: url("../Pattern/Pattern3.jpg");}
 .materia2__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia2__img{float: left; margin-right: 10px; padding-left: 15%;}
 /*MODULO materia 3*/
-.materia3{background-image: url("../Pattern/Pattern1.jpg");}
+.materia3{background-image: url("../Pattern/Pattern3.jpg");}
 .materia3__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia3__img{float: left; margin-right: 10px; padding-left: 10%;}
 
+/*CARD*/
+.cards{max-width: 1200px; margin: 40px auto;; }
+.card{width: 30%; margin:0 1.5%; background: #fff; float: left;}
+.card__img{width: 100%; height: auto;}
+.card__copy{padding: 5px 20px;}
+.card__copy h3{margin-bottom:0}
+
+
+
 /*FOOTER*/
 .footer{background: #333; padding: 30px; color: #fff; margin-top: 40px}
+
+
 
 
 
@@ -112,6 +124,11 @@ Smartphone
 .header__menu__item {display: block;}
 .is-open{height: 300px; overflow: auto;}
 .fuller-button{width: 96%;}
+/*cover*/
+.cover{width: 100%;}
+
+/*card*/
+.card{width: 90%; margin:5%;}
 }
 
 .clearfix:after {
