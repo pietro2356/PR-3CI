@@ -25,3 +25,4 @@ GG/MM/AAAA    Ora    Utente 	Sintesi-Modifica
 14/12/2017    19:00  root       Creato wireframe sito in Photoshop.
 16/12/2017    15:45  root       Terminata creazione moduli materie. Inizio sviluppo footer.
 18/12/2017    18:47  root       Modificati i moduli delle materie sia per desktop, sia per mobile.
+19/12/2017    22:38  root       Corretti i moduli per le materie con img. e descrizione. Aggiunto file HTML per la documentazione.
