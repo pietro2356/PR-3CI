@@ -1,6 +1,11 @@
 ﻿@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
-body {background-color: #eee; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;}
+@font-face {
+  font-family: 'game-over';
+	src: url(../font/game_over.ttf);
+}
+
+body {background-color: #eee; font-family: game_over;}
 
 /*IMPOSTAZIONI GENERALI*/
 .animate{
@@ -22,7 +27,7 @@ p{line-height: 22px;}
     height: 350px;
     /*border: 1px solid red;*/
     background-image: url("../IMG/Cover-Background.jpg");
-    
+
     background-size: cover;
     /*-o-background-size: cover;
     -moz-background-size: cover;*/
