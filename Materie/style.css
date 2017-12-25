@@ -1,0 +1,105 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+  font-family: 'game-over';
+	src: url(../font/game_over.ttf);
+}
+body {background-color: #eee; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;}
+
+/*IMPOSTAZIONI GENERALI*/
+.animate{
+    -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+p{line-height: 22px;}
+
+/*MODULO HEADER*/
+.header{background: #333;}
+.header__logo{color: #fff; float: left; display: block; padding: 20px;}
+.header__menu{float: right; margin: 0; padding: 0; margin-top: 25px;}
+.header__menu__item{display: inline-block;}
+.header__icon-bar{display: block; float: right; padding: 20px; display: none;}
+.header__icon-bar span{display: block; height: 3px; width: 30px; background: #fff; margin-bottom: 5px;}
+
+/*CARD*/
+.cards{max-width: 1200px; margin: 40px auto;; }
+.card{width: 30%; margin:0 1.5%; background: #fff; float: left;}
+.card__img{width: 100%; height: auto;}
+.card__copy{padding: 5px 20px; height: 170px;}
+.card__copy h3{margin-bottom:0}
+
+/*FOOTER*/
+.footer{background: #333; padding: 30px; color: #fff; margin-top: 40px}
+
+
+/*BOTTONI ANMATI*/
+.animated-button.thar-three {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+.animated-button.thar-three:hover {
+    color: #000 !important;
+    background-color: transparent;
+    text-shadow: none;
+}
+.animated-button.thar-three:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+.animated-button.thar-three:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: 2;
+    content: '';
+    color: #000 !important;
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+/*-----------------------------------
+Tablet
+-----------------------------------*/
+@media (max-width: 998px) {
+
+}
+
+/*-----------------------------------
+Smartphone
+-----------------------------------*/
+@media (max-width: 767px) {
+.header__icon-bar {display: block;}
+.header__menu {width: 100%; height: 0px; overflow: hidden;}
+.header__menu__item {display: block;}
+.is-open{height: 300px; overflow: auto;}
+.fuller-button{width: 96%;}
+/*cover*/
+.cover{width: 100%;}
+
+/*card*/
+.card{width: 90%; margin:5%;}
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
