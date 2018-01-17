@@ -10,6 +10,7 @@
 
 body {background-color: #eee; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;}
 
+
 /*IMPOSTAZIONI GENERALI*/
 .animate{
     -webkit-transition: all 0.3s ease-out;
@@ -36,7 +37,7 @@ p{line-height: 22px;}
 .cover__copy{font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; text-align: center; font-weight: bold; text-decoration: underline; vertical-align: text-top; color: #FF0058; font-size: 200%;}
 
 /*MODULO BANNER*/
-.banner{background: #fff; height: 50%; padding-top: 10px; }
+.banner{background: #fff; height: 50%; padding-top: 10px; padding-left: 20px; padding-right: 20px;}
 .banner__image{width: 30%; float: left; height:250px; border: 1px solid red;
   background-image: url("../IMG/myPhoto.jpg");
   background-size: cover;
@@ -131,6 +132,9 @@ Smartphone
 
 /*card*/
 .card{width: 90%; margin:5%;}
+
+/*Banner*/
+.banner{width: 90%; margin: 5%; height: auto;}
 }
 
 .clearfix:after {
