@@ -46,6 +46,7 @@ p{line-height: 22px;}
   background-position: center;
 }
 .banner__copy{width: 70%; float: left; height: 250px; border: 1px solid red;}
+.banner__copy h3 {font-size: 36px; margin-bottom: 0px;}
 
 
 /*MODULO materia*/ /*NON UTILIZZATO*/
@@ -53,7 +54,7 @@ p{line-height: 22px;}
 .materia1__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia1__img{float: left; margin-right: 10px; padding-left: 10%;}
 /*---REPLICARE I MODULI PER OGNI MATERIA---*/
-.materia2{background-image: url("../Pattern/Pattern3.jpg");}.
+.materia2{background-image: url("../Pattern/Pattern3.jpg");}
 .materia2__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia2__img{float: left; margin-right: 10px; padding-left: 15%;}
 /*MODULO materia 3*/
@@ -150,3 +151,4 @@ Smartphone
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+h4 {font-size: 28px; margin-bottom: 0px;}
