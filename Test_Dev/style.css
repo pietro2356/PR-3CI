@@ -37,22 +37,32 @@ p{line-height: 22px;}
 .cover__copy{font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; text-align: center; font-weight: bold; text-decoration: underline; vertical-align: text-top; color: #FF0058; font-size: 200%;}
 
 /*MODULO BANNER*/
-.banner{
+.banner{/*
     background: #eee; 
     height: 50%; 
     width: 100%;
-    /*padding-top: 10px; padding-left: 20px; padding-right: 20px;*/ 
+    /*padding-top: 10px; padding-left: 20px; padding-right: 20px;
     float: left;
-    padding: 5px;
+    padding: 5px;*/
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    /*width: auto;*/
+    height: auto;
+    margin: 0;
 }
-.banner__image{width: 30%; float: left; height:250px; border: 1px solid red;
+.banner__image{width: 30%; float: left; height:250px; /*border: 1px solid red;*/
   background-image: url("../IMG/myPhoto.jpg");
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-position: center;
 }
-.banner__copy{width: 70%; float: left; height: 250px; border: 1px solid red;}
+.banner__copy{background: #fff;width: 70%; float: left; height: 250px; /*border: 1px solid red;*/}
+
+
 
 
 /*MODULO materia*/ /*NON UTILIZZATO*/
@@ -141,9 +151,9 @@ Smartphone
 .card{width: 90%; margin:5%;}
 
 /*Banner*/
-.banner{width: 90%; margin: 5%; height: auto;}
-.banner__copy{width: 98%;}
-.banner__image{width: 98%;}
+.banner{width: 100%; /*margin: 5%; */ padding: 20px;}
+.banner__copy{width: 100%;}
+.banner__image{width: 100%;}
 }
 
 .clearfix:after {
