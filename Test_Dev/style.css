@@ -8,7 +8,7 @@
     
 }
 
-body {background-color: #eee; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;}
+body {background-color: #eee; font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; background-image: url('../')}
 
 
 /*IMPOSTAZIONI GENERALI*/
@@ -37,7 +37,14 @@ p{line-height: 22px;}
 .cover__copy{font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; text-align: center; font-weight: bold; text-decoration: underline; vertical-align: text-top; color: #FF0058; font-size: 200%;}
 
 /*MODULO BANNER*/
-.banner{background: #fff; height: 50%; padding-top: 10px; padding-left: 20px; padding-right: 20px;}
+.banner{
+    background: #eee; 
+    height: 50%; 
+    width: 100%;
+    /*padding-top: 10px; padding-left: 20px; padding-right: 20px;*/ 
+    float: left;
+    padding: 5px;
+}
 .banner__image{width: 30%; float: left; height:250px; border: 1px solid red;
   background-image: url("../IMG/myPhoto.jpg");
   background-size: cover;
@@ -46,7 +53,6 @@ p{line-height: 22px;}
   background-position: center;
 }
 .banner__copy{width: 70%; float: left; height: 250px; border: 1px solid red;}
-.banner__copy h3 {font-size: 36px; margin-bottom: 0px;}
 
 
 /*MODULO materia*/ /*NON UTILIZZATO*/
@@ -54,7 +60,7 @@ p{line-height: 22px;}
 .materia1__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia1__img{float: left; margin-right: 10px; padding-left: 10%;}
 /*---REPLICARE I MODULI PER OGNI MATERIA---*/
-.materia2{background-image: url("../Pattern/Pattern3.jpg");}
+.materia2{background-image: url("../Pattern/Pattern3.jpg");}.
 .materia2__name{color: #E01F25; font-weight: bold; text-align: center;}
 .materia2__img{float: left; margin-right: 10px; padding-left: 15%;}
 /*MODULO materia 3*/
@@ -136,6 +142,8 @@ Smartphone
 
 /*Banner*/
 .banner{width: 90%; margin: 5%; height: auto;}
+.banner__copy{width: 98%;}
+.banner__image{width: 98%;}
 }
 
 .clearfix:after {
@@ -151,4 +159,3 @@ Smartphone
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
-h4 {font-size: 28px; margin-bottom: 0px;}
