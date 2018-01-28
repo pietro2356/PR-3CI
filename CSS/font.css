@@ -1,0 +1,68 @@
+@font-face {
+    /*Hack*/
+    font-family: 'Hack';
+    src: url('Hack.ttf')format('truetype');
+    ;
+    src: local('Hack'), url('Hack.ttf') format('truetype');
+    /*AUGUSTUS*/
+    font-family: 'AUGUSTUS';
+    src: url('AUGUSTUS.TTF')format('truetype');
+    ;
+    src: local('AUGUSTUS'), url('AUGUSTUS.TTF') format('truetype');
+    /*BLADRMF_*/
+    font-family: 'BLADRMF_.TTF';
+    src: url('BLADRMF_.TTF')format('truetype');
+    ;
+    src: local('BLADRMF_'), url('BLADRMF_.TTF') format('truetype');
+    /*DS-DIGI*/
+    font-family: 'DS-DIGI';
+    src: url('DS-DIGI.TTF')format('truetype');
+    ;
+    src: local('DS-DIGI'), url('DS-DIGI.TTF') format('truetype');
+    /*DS-DIGIB*/
+    font-family: 'DS-DIGIB';
+    src: url('DS-DIGIB.TTF')format('truetype');
+    ;
+    src: local('DS-DIGIB'), url('DS-DIGIB.TTF') format('truetype');
+    /*DS-DIGIB*/
+    font-family: 'DS-DIGIB';
+    src: url('DS-DIGIBI.TTF')format('truetype');
+    ;
+    src: local('DS-DIGIBI'), url('DS-DIGIBI.TTF') format('truetype');
+    /*DS-DIGIBT*/
+    font-family: 'DS-DIGIBT';
+    src: url('DS-DIGIBT.TTF')format('truetype');
+    ;
+    src: local('DS-DIGIBT'), url('DS-DIGIBT.TTF') format('truetype');
+    /*game-over*/
+    font-family: 'game-over';
+    src: url('game-over.ttf')format('truetype');
+    ;
+    src: local('game-over'), url('game-over.ttf') format('truetype');
+    /*geek*/
+    font-family: 'geek';
+    src: url('geek.ttf')format('truetype');
+    ;
+    src: local('geek'), url('geek.ttf') format('truetype');
+    /*GeosansLight-Oblique*/
+    font-family: 'GeosansLight-Oblique';
+    src: url('GeosansLight-Oblique.ttf')format('truetype');
+    ;
+    src: local('GeosansLight-Oblique'), url('GeosansLight-Oblique.ttf') format('truetype');
+    /*GeosansLight*/
+    font-family: 'GeosansLight';
+    src: url('GeosansLight.ttf')format('truetype');
+    ;
+    src: local('GeosansLight'), url('GeosansLight.ttf') format('truetype');
+    /*go3v2*/
+    font-family: 'go3v2';
+    src: url('go3v2.ttf')format('truetype');
+    ;
+    src: local('go3v2'), url('go3v2.ttf') format('truetype');
+    /*ka1*/
+    font-family: 'ka1';
+    src: url('ka1.ttf')format('truetype');
+    ;
+    src: local('ka1'), url('ka1.ttf') format('truetype');
+    /*DA ULTIMARE*/
+}
