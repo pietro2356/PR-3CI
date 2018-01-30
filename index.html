@@ -1,45 +1,110 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="CSS/960_12_col.css" />
-    <link rel="favivon" href="Sprite/favicon.ico" />
-    <link rel="icon" href="Sprite/terminal.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet prefetch" href='https://cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css'>
     <link rel="stylesheet" type="text/css" href="CSS/buttonStyle.css" />
-    <title>PR-3CI</title>
+    <link rel="import" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="import" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="CSS/font.css">
+    <title>Sito BEM</title>
 </head>
-<body translate="no">
-    <header>
-        <h1>DOCUMENTAZIONE PROVVISORIA</h1>
+
+<body>
+    <!-- MODULO HEADER -->
+    <header class="header clearfix">
+        <a href="" class="header__logo"><img src="Sprite/favicon.png" alt="By Pietro Rocchio" height="70px" width="70px"></a>
+        <a href="" class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu animate">
+            <li class="header__menu__item"><a href="index.html" class="pure-button fuller-button green">Home</a></li>
+            <li class="header__menu__item"><a href="Doc/index.html" class="pure-button fuller-button blue">About</a></li>
+            <li class="header__menu__item"><a href="#" class="pure-button fuller-button white">Project</a></li>
+            <!--<li class="header__menu__item"><a href="#" class="pure-button fuller-button red">Test</a></li>-->
+            <li class="header__menu__item"><a href="https://www.tumblr.com/blog/pr-3ci" class="pure-button fuller-button purple">Tumblr</a></li>
+        </ul>
     </header>
-    <div class="container_12 clearfix">
-        <header id="header" class="grid_12">
-            <div class="article grid_4">
-                <img src="Sprite/favicon.png" alt="By Pietro Rocchio" height="75px" width="75px" align="middle" />
-                <p>By Pietro Rocchio</p>
+
+    <!-- cover del sito -->
+    <section class="cover clearfix">
+        <div class="cover__caption">
+            <div class="cover__copy">
+                <h1>This is my site</h1>
             </div>
-            <div class="article grid_4">
-                <a href="Test_Dev/index.html">LINK PER PAGINA IN SVULUPPO</a>
-                <br>
-                <br>
-                <a href="Doc/index.html">DOCUMENTAZIONE</a>
-                <br>
-                <a href="JS/index.html">TEST JS</a>
+        </div>
+    </section>
 
+    <!-- banner -->
+    <section class="banner clearfix">
+        <div class="banner__image"></div>
+        <div class="banner__copy">
+            <h3>Rocchio Pietro</h3>
+            <h4>Classe 3Ci</h4>
+            <p>
+                Ciao a tutti, questo è il mio sito.
+                <br> E' ancora in fase di sviluppo ma presto sarà ultimato.
+                <br> Adesso, la pagina primcipale è terminata, non mi resta che ultimare le ultime modifiche alle pagine secondarie, per le materie e tutto il resto.
+                <br>
+            </p>
+        </div>
+    </section>
+
+
+    <!-- card -->
+    <section class="cards clearfix">
+        <div class="card clearfix">
+            <img class="card__img" src="images/sistemi_e_reti-400x260.jpg" alt="nature">
+            <div class="card__copy">
+                <h3><a href="Materie/index.html">Lista Materie</a></h3>
+                <p>
+                    Eccovi la lista delle materie del mio corso. <br> Qui trovarte parte dei miei appunti delle relative meterie. <br> Soprattutto delle materie informatiche
+                </p>
             </div>
-            <div class="article grid_4">
-
+        </div>
+        <div class="card clearfix">
+            <img class="card__img" src="images/informatica-400x260.jpg" alt="nature">
+            <div class="card__copy">
+                <h3><a href="#">Informatica</a></h3>
+                <p>
+                    Qui verrà mostrato tutto quello che verrà fatto nella materia di sistemi e reti da me.<br> Sia la teoria che la pratica.<br> Per ora non vi è ancora nulla.<br>
+                </p>
             </div>
-        </header>
+        </div>
+        <div class="card clearfix">
+            <img class="card__img" src="images/matematica-400x260.jpg" alt="nature">
+            <div class="card__copy">
+                <h3><a href="#">Matematica</a></h3>
+                <p>
+                    Qui verrà mostrato tutto quello che verrà fatto nella materia matematica da me.<br> Sia la teoria che la pratica.<br> Per ora non vi è ancora nulla.<br> Abbiamo finito trigonometria e a gennaio iniziamo le circonferenze.<br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <br>
 
+    <footer class="footer clearfix">
+        <p>Copyright - 2017 Rocchio Pietro 3Ci</p>
+    </footer>
 
-        <!-- FOOTER -->
-        <footer class="footer">
-            <h1>DOCUMENTAZIONE PROVVISORIA</h1>
-        </footer>
-    </div>
+    <!-- DA MODIFICARE. IL JQUERY E' TEMPORANEO, MA PER ORA FUNZIONA -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".header__icon-bar").click(function(e) {
+                $(".header__menu").toggleClass('is-open');
+                e.preventDefault();
+            })
+        })
+    </script>
 </body>
+
 </html>

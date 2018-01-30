@@ -64,5 +64,29 @@
     src: url('ka1.ttf')format('truetype');
     ;
     src: local('ka1'), url('ka1.ttf') format('truetype');
-    /*DA ULTIMARE*/
+    /*Korean_Calligraphy*/
+    font-family: 'Korean_Calligraphy';
+    src: url('Korean_Calligraphy.ttf')format('truetype');
+    ;
+    src: local('Korean_Calligraphy'), url('Korean_Calligraphy.ttf') format('truetype');
+    /*Louis_George_Cafe_Bold_Italic*/
+    font-family: 'Louis_George_Cafe_Bold_Italic';
+    src: url('Louis_George_Cafe_Bold_Italic.ttf')format('truetype');
+    ;
+    src: local('Louis_George_Cafe_Bold_Italic'), url('Louis_George_Cafe_Bold_Italic.ttf') format('truetype');
+    /*Louis_George_Cafe_Bold*/
+    font-family: 'Louis_George_Cafe_Bold';
+    src: url('Louis_George_Cafe_Bold.ttf')format('truetype');
+    ;
+    src: local('Louis_George_Cafe_Bold'), url('Louis_George_Cafe_Bold.ttf') format('truetype');
+    /*Louis_George_Cafe_Italic*/
+    font-family: 'Louis_George_Cafe_Italic';
+    src: url('Louis_George_Cafe_Italic.ttf')format('truetype');
+    ;
+    src: local('Louis_George_Cafe_Italic'), url('Louis_George_Cafe_Italic.ttf') format('truetype');
+    /*Louis_George_Cafe_Light_Italic*/
+    font-family: 'Louis_George_Cafe_Light_Italic';
+    src: url('Louis_George_Cafe_Light_Italic.ttf')format('truetype');
+    ;
+    src: local('Louis_George_Cafe_Light_Italic'), url('Louis_George_Cafe_Light_Italic.ttf') format('truetype');
 }
