@@ -26,3 +26,13 @@ GG/MM/AAAA    Ora    Utente 	Sintesi-Modifica
 16/12/2017    15:45  root       Terminata creazione moduli materie. Inizio sviluppo footer.
 18/12/2017    18:47  root       Modificati i moduli delle materie sia per desktop, sia per mobile.
 25/12/2017    02:43  root       Aggiunta pagina lista materie con relativi collegamenti e cartelle.
+10/01/2018    09:35  root       Add JS.
+17/01/2018    08:43  root       Start modifica banner.
+17/01/2018    09:36  root       Fix banner for mobile.
+21/01/2018    18:31  root       Edit banner.
+24/01/2018    08:48  root       Fix CSS banner.
+24/01/2018    09:33  root       End fix banner in CSS and HTML.
+28/01/2018    23:01  root       Added fonts and refixed banner.
+30/01/2018    09:57  root       Modifica generale sito.
+30/01/2018    19:17  root       Up log.
+30/01/2018    19:35  root       Fixato index lista materie.

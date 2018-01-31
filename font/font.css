@@ -89,4 +89,14 @@
     src: url('Louis_George_Cafe_Light_Italic.ttf')format('truetype');
     ;
     src: local('Louis_George_Cafe_Light_Italic'), url('Louis_George_Cafe_Light_Italic.ttf') format('truetype');
+    /*Star_Trek_Enterprise_Future*/
+    font-family: 'Star_Trek_Enterprise_Future';
+    src: url('Star_Trek_Enterprise_Future.ttf')format('truetype');
+    ;
+    src: local('Star_Trek_Enterprise_Future'), url('Star_Trek_Enterprise_Future.ttf') format('truetype');
+    /*Star_Trek_future*/
+    font-family: 'Star_Trek_future';
+    src: url('Star_Trek_future.ttf')format('truetype');
+    ;
+    src: local('Star_Trek_future'), url('Star_Trek_future.ttf') format('truetype');
 }

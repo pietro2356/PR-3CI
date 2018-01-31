@@ -1,4 +1,4 @@
-﻿@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body {
@@ -6,9 +6,7 @@ body {
     font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
 }
 
-
 /*IMPOSTAZIONI GENERALI*/
-
 .animate {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -17,7 +15,6 @@ body {
 p {
     line-height: 22px;
 }
-
 
 /*MODULO HEADER*/
 
@@ -58,12 +55,11 @@ p {
     margin-bottom: 5px;
 }
 
-
 /*MODULO COVER*/
 
 .cover {
     height: 350px;
-    background-image: url("IMG/Cover-Background.jpg");
+    background-image: url("img/Discovery.jpg");
     background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -119,109 +115,6 @@ p {
     color: #ff0000;
 }
 
-
-/*MODULO materia*/
-
-
-/*NON UTILIZZATO*/
-
-.materia1 {
-    background-image: url("Pattern/Pattern3.jpg");
-}
-
-.materia1__name {
-    color: #E01F25;
-    font-weight: bold;
-    text-align: center;
-}
-
-.materia1__img {
-    float: left;
-    margin-right: 10px;
-    padding-left: 10%;
-}
-
-
-/*---REPLICARE I MODULI PER OGNI MATERIA---*/
-
-.materia2 {
-    background-image: url("Pattern/Pattern3.jpg");
-}
-
-.materia2__name {
-    color: #E01F25;
-    font-weight: bold;
-    text-align: center;
-}
-
-.materia2__img {
-    float: left;
-    margin-right: 10px;
-    padding-left: 15%;
-}
-
-
-/*MODULO materia 3*/
-
-.materia3 {
-    background-image: url("Pattern/Pattern3.jpg");
-}
-
-.materia3__name {
-    color: #E01F25;
-    font-weight: bold;
-    text-align: center;
-}
-
-.materia3__img {
-    float: left;
-    margin-right: 10px;
-    padding-left: 10%;
-}
-
-
-/*CARD*/
-
-.cards {
-    max-width: 1200px;
-    margin: 40px auto;
-    ;
-}
-
-.card {
-    width: 30%;
-    margin: 0 1.5%;
-    background: #fff;
-    float: left;
-}
-
-.card__img {
-    width: 100%;
-    height: auto;
-}
-
-.card__copy {
-    padding: 5px 20px;
-    height: 170px;
-}
-
-.card__copy a {
-    margin-bottom: 0;
-    color: #FF0000;
-}
-
-.card__copy a:hover {
-    margin-bottom: 0;
-    color: #00FF00;
-    text-decoration: underline;
-}
-/*
-.card__copy #StarTrek h3{
-    font-family: 'Star Trek Enterprise Future';
-    font-size: 20px;
-}
-*/
-
 /*FOOTER*/
 
 .footer {
@@ -230,7 +123,6 @@ p {
     color: #fff;
     margin-top: 40px
 }
-
 
 /*BOTTONI ANMATI*/
 
@@ -268,7 +160,6 @@ p {
     background: #F7CA18;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-
 
 /*-----------------------------------
 Tablet
