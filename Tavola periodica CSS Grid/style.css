@@ -1,0 +1,54 @@
+/* CSS Document */
+body{
+	/*font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" */
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.element{
+	margin-top: 20px;
+	padding: 0px;
+}
+.element:hover{
+	/*Devono ingrandirsi un pochino per permetere una migliore visualizzazione delle informazioni*/
+}
+.element H1{
+	margin: 10px;
+	margin-bottom: 0px;
+	font-family: 'Letters for Learners';
+}
+.element h2{
+	margin: 10px;
+	margin-top: 0px;
+	font-family: 'Letters for Learners';
+}
+.alcalini{
+	background-color: #FF9600;
+}
+.gas{
+	background-color: #2AFF00;
+}
+.alcalini_terrosi{
+	background-color: #E0FF00;
+}
+.gas_nobili{
+	background-color: #00FFFF;
+}
+.semimetalli{
+	background-color: #018900;
+}
+.metalli_transizione{
+	background-color: #77DD88;
+}
+.metalliD{
+	background-color: #DDBBBB;
+}
+.notmetalli
+{
+	background-color: #00B64D;
+}
+.semimetalli{
+	background-color: #FF7F46;
+}
+.alogeni{
+	background-color: #0A00FF;
+}

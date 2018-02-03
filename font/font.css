@@ -99,4 +99,8 @@
     src: url('Star_Trek_future.ttf')format('truetype');
     ;
     src: local('Star_Trek_future'), url('Star_Trek_future.ttf') format('truetype');
+	/*Letters*/
+	font-family: 'Letters for Learners';
+	src: url(Letters for Learners.ttf)format('truecript');
+	src: local('Letters for Learners'), url('Letters for Learners.ttf') format('truetype');
 }
