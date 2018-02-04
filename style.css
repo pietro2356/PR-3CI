@@ -71,12 +71,12 @@ p {
 }
 
 .cover__copy {
-    font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+    font-family: 'go3v2';
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     vertical-align: text-top;
-    color: #FF0058;
+    color: #52F97A;
     font-size: 200%;
 }
 
@@ -185,7 +185,6 @@ p {
 .cards {
     max-width: 1200px;
     margin: 40px auto;
-    ;
 }
 
 .card {
@@ -206,14 +205,17 @@ p {
 }
 
 .card__copy a {
+	font-size: 22px;
+	font-family: 'TheLightFont';
     margin-bottom: 0;
     color: #FF0000;
 }
 
 .card__copy a:hover {
+	font-family: 'TheLightFont';
     margin-bottom: 0;
-    color: #00FF00;
-    text-decoration: underline;
+    color: #005C88;
+    text-decoration: underline !important;
 }
 /*
 .card__copy #StarTrek h3{

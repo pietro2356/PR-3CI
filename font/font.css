@@ -2,12 +2,10 @@
     /*Hack*/
     font-family: 'Hack';
     src: url('Hack.ttf')format('truetype');
-    ;
     src: local('Hack'), url('Hack.ttf') format('truetype');
     /*AUGUSTUS*/
     font-family: 'AUGUSTUS';
     src: url('AUGUSTUS.TTF')format('truetype');
-    ;
     src: local('AUGUSTUS'), url('AUGUSTUS.TTF') format('truetype');
     /*BLADRMF_*/
     font-family: 'BLADRMF_.TTF';
@@ -103,4 +101,23 @@
 	font-family: 'Letters for Learners';
 	src: url(Letters for Learners.ttf)format('truecript');
 	src: local('Letters for Learners'), url('Letters for Learners.ttf') format('truetype');
+	/*Letters dots*/
+	font-family: 'Letters for Learners dots';
+	src: url(Letters for Learners Dots.ttf)format('truecript');
+	src: local('Letters for Learners Dots'), url('Letters for Learners Dots.ttf') format('truetype');
+	
+	/*CODE Bold*/
+	font-family: 'CODE Bold';
+	src: url(CODE Bold.otf)format('truecript');
+	src: local('LCODE Bold'), url('CODE Bold.otf') format('truetype');
+	
+	/*Light*/
+	font-family: 'TheLightFont';
+	src: url(TheLightFont.otf)format('truecript');
+	src: local('TheLightFont'), url('TheLightFont.otf') format('truetype');
+	
+	/*chimica*/
+	font-family: 'chimica';
+	src: url(Chemistry by Denne.ttf)format('truecript');
+	src: local('Chemistry by Denne'), url('Chemistry by Denne.ttf') format('truetype');
 }
