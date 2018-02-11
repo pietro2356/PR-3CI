@@ -1,0 +1,4 @@
+/*
+    COS'E' UN'OGGETTO E COME COSTRUIRLO.
+*/
+//
