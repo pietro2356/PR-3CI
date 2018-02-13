@@ -41,4 +41,6 @@ GG/MM/AAAA    Ora    Utente 	Sintesi-Modifica
 04/02/2018    21:44  root       Finita tavola periodica con CSS Grids, importato novo font.
 06/02/2018    19:46  root       SITO TERMINATO[?].
 06/02/2018    20:02  root       FINE [ + || - ].
+--------------------------------------------------------------------------------------------
+13/02/2018    23:05  root       File JS spostati in repository esterno & aggiunto link a codesto repository. [inizio implementazione JS]
 

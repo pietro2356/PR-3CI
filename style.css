@@ -217,6 +217,10 @@ p {
     text-decoration: underline !important;
 }
 
+.card__copy h3 {
+    text-align: center !important;
+}
+
 
 /*
 .card__copy #StarTrek h3{
