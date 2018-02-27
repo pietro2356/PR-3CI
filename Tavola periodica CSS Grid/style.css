@@ -1,117 +1,135 @@
-/* CSS Document */
-body{
-	/*font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" */
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	background-color: #EBEBEB;
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+body {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    background-color: #EBEBEB;
 }
-#header{
-	font-family: 'Letters for Learners Dots';
-	font-size: 25px;
-	text-align: center;
-	color: #F33033;
+
+#header {
+    font-family: 'Letters for Learners Dots';
+    font-size: 25px;
+    text-align: center;
+    color: #F33033;
 }
-.element{
-	margin-top: 20px;
-	padding: 0px;
+
+.element {
+    margin-top: 20px;
+    padding: 0px;
 }
-.element:hover{
-	/*Devono ingrandirsi un pochino per permetere una migliore visualizzazione delle informazioni*/
+
+.element H1 {
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family: 'Letters for Learners';
 }
-.element H1{
-	margin: 10px;
-	margin-bottom: 0px;
-	font-family: 'Letters for Learners';
+
+.element h2 {
+    margin: 10px;
+    margin-top: 0px;
+    font-family: 'Letters for Learners';
 }
-.element h2{
-	margin: 10px;
-	margin-top: 0px;
-	font-family: 'Letters for Learners';
+
+.alcalini {
+    background-color: #FF9600;
 }
-.alcalini{
-	background-color: #FF9600;
+
+.gas {
+    background-color: #2AFF00;
 }
-.gas{
-	background-color: #2AFF00;
+
+.alcalini_terrosi {
+    background-color: #E0FF00;
 }
-.alcalini_terrosi{
-	background-color: #E0FF00;
+
+.gas_nobili {
+    background-color: #00FFFF;
 }
-.gas_nobili{
-	background-color: #00FFFF;
+
+.semimetalli {
+    background-color: #018900;
 }
-.semimetalli{
-	background-color: #018900;
+
+.metalli_transizione {
+    background-color: #77DD88;
 }
-.metalli_transizione{
-	background-color: #77DD88;
+
+.metalliD {
+    background-color: #DDBBBB;
 }
-.metalliD{
-	background-color: #DDBBBB;
+
+.notmetalli {
+    background-color: #00B64D;
 }
-.notmetalli
-{
-	background-color: #00B64D;
+
+.semimetalli {
+    background-color: #FF7F46;
 }
-.semimetalli{
-	background-color: #FF7F46;
+
+.alogeni {
+    background-color: #4D46FF;
 }
-.alogeni{
-	background-color: #4D46FF;
+
+#indice {
+    font-family: 'chimica';
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    color: #F33033;
+    text-decoration: underline;
 }
-#indice{
-	font-family: 'chimica';
-	margin-top: 20px;
-	padding-left: 10px;
-	text-align: center;
-	color: #F33033;
-	text-decoration: underline;
+
+#alcalini {
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #FF9600;
 }
-#alcalini{
-	padding: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #FF9600;
+
+#gas {
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #2AFF00;
 }
-#gas{
-	padding: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #2AFF00;
+
+#gas_nobili {
+    padding: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #00FFFF;
 }
-#gas_nobili{
-	padding: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #00FFFF;
+
+#alcalini_terrosi {
+    padding: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #E0FF00;
 }
-#alcalini_terrosi{
-	padding: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #E0FF00;
+
+#metalli_transizione {
+    padding: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #77DD88;
 }
-#metalli_transizione{
-	padding: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #77DD88;
+
+#alogeni {
+    padding: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #4D46FF;
 }
-#alogeni{
-	padding: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #4D46FF;
+
+#semimetalli {
+    padding: 0px;
+    font-family: 'chimica';
+    text-align: center;
+    background-color: #FF7F46;
 }
-#semimetalli{
-	padding: 0px;
-	font-family: 'chimica';
-	text-align: center;
-	background-color: #FF7F46;
-}
-.txt{
-	font-size: 12px;
+
+.txt {
+    font-size: 12px;
 }
