@@ -20,36 +20,36 @@ p {
 
 /*MODULO HEADER*/
 
-.header {
+.head {
     background: #333;
 }
 
-.header__logo {
+.head__logo {
     color: #fff;
     float: left;
     display: block;
     padding: 20px;
 }
 
-.header__menu {
+.head__menu {
     float: right;
     margin: 0;
     padding: 0;
     margin-top: 25px;
 }
 
-.header__menu__item {
+.head__menu__item {
     display: inline-block;
 }
 
-.header__icon-bar {
+.head__icon-bar {
     display: block;
     float: right;
     padding: 20px;
     display: none;
 }
 
-.header__icon-bar span {
+.head__icon-bar span {
     display: block;
     height: 3px;
     width: 30px;
@@ -69,13 +69,13 @@ p {
     background-position: center;
 }
 
-.cover__copy {
+.cover__text {
     font-family: 'go3v2';
     text-align: center;
     font-weight: bold;
     /*text-decoration: underline;*/
     vertical-align: text-top;
-    color: #52F97A;
+    color: rgb(21, 255, 76);
     font-size: 200%;
 }
 
@@ -106,7 +106,7 @@ p {
     background-position: center;
 }
 
-.banner__copy {
+.banner__text {
     background: #eee;
     width: 70%;
     float: left;
@@ -114,7 +114,7 @@ p {
     padding: 10px;
 }
 
-.banner__copy h3 {
+.banner__text h3 {
     color: #ff0000;
 }
 
@@ -142,6 +142,9 @@ p {
 
 
 /*---REPLICARE I MODULI PER OGNI MATERIA---*/
+
+
+/*CODICE NON UTILIZZATO*/
 
 .materia2 {
     background-image: url("Pattern/Pattern3.jpg");
@@ -179,6 +182,9 @@ p {
 }
 
 
+/*FINE CODICE NON UTILIZZATO*/
+
+
 /*CARD*/
 
 .cards {
@@ -198,36 +204,28 @@ p {
     height: auto;
 }
 
-.card__copy {
+.card__text {
     padding: 5px 20px;
     height: 170px;
 }
 
-.card__copy a {
+.card__text a {
     font-size: 22px;
     font-family: 'TheLightFont';
     margin-bottom: 0;
     color: #FF0000;
 }
 
-.card__copy a:hover {
+.card__text a:hover {
     font-family: 'TheLightFont';
     margin-bottom: 0;
     color: #005C88;
     text-decoration: underline !important;
 }
 
-.card__copy h3 {
+.card__text h3 {
     text-align: center !important;
 }
-
-
-/*
-.card__copy #StarTrek h3{
-    font-family: 'Star Trek Enterprise Future';
-    font-size: 20px;
-}
-*/
 
 
 /*FOOTER*/
@@ -240,7 +238,7 @@ p {
 }
 
 
-/*BOTTONI ANMATI*/
+/*BOTTONI ANIMATI*/
 
 .animated-button.thar-three {
     color: #fff;
@@ -279,29 +277,22 @@ p {
 
 
 /*-----------------------------------
-Tablet
------------------------------------*/
-
-@media (max-width: 998px) {}
-
-
-/*-----------------------------------
 Smartphone
 -----------------------------------*/
 
 @media (max-width: 767px) {
-    .header__icon-bar {
+    .head__icon-bar {
         display: block;
     }
-    .header__menu {
+    .head__menu {
         width: 100%;
         height: 0px;
         overflow: hidden;
     }
-    .header__menu__item {
+    .head__menu__item {
         display: block;
     }
-    .is-open {
+    .ON {
         height: 300px;
         overflow: auto;
     }
@@ -320,10 +311,9 @@ Smartphone
     /*Banner*/
     .banner {
         width: 100%;
-        /*margin: 5%; */
         padding: 20px;
     }
-    .banner__copy {
+    .banner__text {
         width: 100%;
     }
     .banner__image {

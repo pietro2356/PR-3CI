@@ -44,4 +44,5 @@ GG/MM/AAAA    Ora    Utente 	Sintesi-Modifica
 --------------------------------------------------------------------------------------------
 13/02/2018    23:05  root       File JS spostati in repository esterno & aggiunto link a codesto repository. [inizio implementazione JS]
 14/02/2018    09:35  root       Messa a punto di JS.
-
+********************************************************************************************
+27/02/2018    23:35  root       Fix codice JS, HTML e CSS. FINE SITO!

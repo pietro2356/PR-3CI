@@ -13,31 +13,31 @@
     <link rel="import" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="import" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="font/font.css">
-    <title>Sito BEM</title>
+    <link rel="shortcut icon" href="sprite/terminal.png" type="image/x-icon">
+    <title>PR-3CI</title>
 </head>
 
 <body>
     <!-- MODULO HEADER -->
-    <header class="header clearfix">
-        <a href="" class="header__logo"><img src="Sprite/favicon.png" alt="By Pietro Rocchio" height="70px" width="70px"></a>
-        <a href="" class="header__icon-bar">
+    <header class="head clearfix">
+        <a href="" class="head__logo"><img src="Sprite/favicon.png" alt="By Pietro Rocchio 3Ci" height="70px" width="70px"></a>
+        <a href="" class="head__icon-bar">
             <span></span>
             <span></span>
             <span></span>
         </a>
-        <ul class="header__menu animate">
-            <li class="header__menu__item"><a href="index.html" class="pure-button fuller-button green">Home</a></li>
-            <li class="header__menu__item"><a href="Doc/index.html" class="pure-button fuller-button blue">About</a></li>
-            <li class="header__menu__item"><a href="Registration/index.html" class="pure-button fuller-button white">Login</a></li>
-            <!--<li class="header__menu__item"><a href="#" class="pure-button fuller-button red">Test</a></li>-->
-            <li class="header__menu__item"><a href="https://www.tumblr.com/blog/pr-3ci" class="pure-button fuller-button purple">Tumblr</a></li>
+        <ul class="head__menu animate">
+            <li class="head__menu__item"><a href="index.html" class="pure-button fuller-button green">Home</a></li>
+            <li class="head__menu__item"><a href="log/log.txt" class="pure-button fuller-button blue">About</a></li>
+            <li class="head__menu__item"><a href="Registration/index.html" class="pure-button fuller-button white">Login</a></li>
+            <li class="head__menu__item"><a href="https://www.tumblr.com/blog/pr-3ci" class="pure-button fuller-button purple">Tumblr</a></li>
         </ul>
     </header>
 
     <!-- cover del sito -->
     <section class="cover clearfix">
         <div class="cover__caption">
-            <div class="cover__copy">
+            <div class="cover__text">
                 <script src="JS/benvenuto.js"></script>
             </div>
         </div>
@@ -46,12 +46,13 @@
     <!-- banner -->
     <section class="banner clearfix">
         <div class="banner__image"></div>
-        <div class="banner__copy">
+        <div class="banner__text">
+            <!--Esempio di codice JS scritto direttamente all'interno della pagina HTML-->
             <script>
                 document.write('<h3>Rocchio Pietro</h3>');
                 document.write('<h4>Classe 3Ci</h4>');
                 document.write('<p>Ciao a tutti, questo è il mio sito!</p>');
-                document.write('<p>Il sito è quasi finito, in classe abbiamo iniziato JavaScrip e dunque ho deciso di portarmi un pochino avanti</p>');
+                document.write('<p>Il sito è quasi finito, in classe abbiamo iniziato JavaScript e dunque ho deciso di portarmi un pochino avanti</p>');
                 document.write('<p>Difatti le scritte che state leggendo sono create con JavaScript</p>');
             </script>
         </div>
@@ -61,8 +62,8 @@
     <!-- card -->
     <section class="cards clearfix">
         <div class="card clearfix">
-            <img class="card__img" src="images/sistemi_e_reti-400x260.jpg">
-            <div class="card__copy">
+            <img class="card__img" src="images/sistemi_e_reti-400x260.jpg" alt="sys-reti">
+            <div class="card__text">
                 <h3><a href="Materie/index.html">Materie</a></h3>
                 <p>
                     Eccovi la lista delle materie del mio corso. <br> Qui trovarte parte dei miei appunti delle relative meterie. <br> Soprattutto delle materie informatiche
@@ -70,8 +71,8 @@
             </div>
         </div>
         <div class="card clearfix">
-            <img class="card__img" src="images/JS.png" alt="nature">
-            <div class="card__copy" id="StarTrek">
+            <img class="card__img" src="images/JS.png" alt="JSBasic" alt="">
+            <div class="card__text" id="JavaScriptBasic">
                 <h3><a href="https://github.com/pietro3Ci/JavaScriptBasic.git">JavaScriptBasic</a></h3>
                 <p>
                     Link al mio repository GitHub per JavaScript
@@ -81,9 +82,9 @@
             </div>
         </div>
         <div class="card clearfix">
-            <img class="card__img" src="images/PT.jpg" alt="nature">
-            <div class="card__copy">
-                <h3><a href="Tavola periodica CSS Grid/index.html">Tavola periodica [CSS Grids]</a></h3>
+            <img class="card__img" src="images/PT.jpg" alt="PeriodicTable">
+            <div class="card__text">
+                <h3><a href="TavolaPeriodicaCSSGrid/index.html">Tavola periodica [CSS Grids]</a></h3>
                 <p>
                     Qui trovate una lista degli elementi della tavola periodica.<br> La pagina è interamente fatta con le CSS Grids.<br> Non ci sono tutti gli elementi, mi spiace, in futuro verranno aggiunti.
                 </p>
@@ -95,17 +96,9 @@
     <footer class="footer clearfix">
         <script src="JS/copyright.js"></script>
     </footer>
-
-    <!-- DA MODIFICARE. IL JQUERY E' TEMPORANEO, MA PER ORA FUNZIONA -->
+    <!-- JQUERY. VISIONARE IL FILE "Menu.js". -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(".header__icon-bar").click(function(e) {
-                $(".header__menu").toggleClass('is-open');
-                e.preventDefault();
-            })
-        })
-    </script>
+    <script src="JS/Menu.js"></script>
 </body>
 
 </html>
