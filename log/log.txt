@@ -48,3 +48,4 @@ GG/MM/AAAA    Ora    Utente 	Sintesi-Modifica
 27/02/2018    23:35  root       Fix codice JS, HTML e CSS. FINE SITO!
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 24/02/2018    11:50  root       FINE SITO!
+30/03/2018    02:15  root       Fix index.html
